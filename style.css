@@ -1,0 +1,55 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.navigation {
+    display: flex;
+    border: 2px solid red;
+    justify-content: center;
+    margin: 0 12%;
+    
+}
+.website-nav {
+    display: flex;
+    margin: 0;
+}
+div input{
+    border: 0;
+    width: 300px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #F1F1F1;
+    
+}
+div ul {
+    list-style-type: none;
+    
+}
+div ul li {
+    padding: 0px 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: #707070;
+}
+.nav-content {
+    padding: 20px 40px;
+}
+.tv-container {
+    display: flex;
+    background-color: #FEEAE9;
+    margin: 80px 10%;
+}
+.tv-price {
+    color: #FF136F;
+}
+.buy-btn {
+    background-color: #FF136F;
+    color: white;
+    border: 2px solid blue;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.tv-info , .tv-price {
+    font-size: 2em;
+}
