@@ -1,5 +1,8 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .navigation {
     display: flex;
@@ -36,8 +39,12 @@ ul li a{
 }
 .tv-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #FEEAE9;
     margin: 80px 10%;
+    border: 2px solid red;
+
 }
 .tv-price {
     color: #FF136F;
@@ -52,4 +59,88 @@ ul li a{
 }
 .tv-info , .tv-price {
     font-size: 2em;
+}
+.section-2{
+    margin: 80px 12%;
+}
+.section-heading {
+    font-weight: 700;
+}
+.categories {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 20px;
+}
+
+
+.category-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(#FF9C35 ,#FFD019);
+    border-radius: 10px;
+    padding: 10px 5%;
+}
+.category-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(#FF589B ,#FF136F);
+    border-radius: 10px;
+    padding: 10px 5%;
+}
+.category-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(#4289FF ,#3F07F8);
+    border-radius: 10px;
+    padding: 10px 5%;
+}
+.category-name {
+    color: white;
+    font-size: 30px;
+}
+
+
+.section-2{
+    margin: 80px 12%;
+}
+.section-heading {
+    font-weight: 700;
+}
+.shoes {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 20px;
+}
+
+
+.shoe-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(#FF9C35 ,#FFD019);
+    border-radius: 10px;
+    padding: 10px 5%;
+}
+.shoe-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(#FF589B ,#FF136F);
+    border-radius: 10px;
+    padding: 10px 5%;
+}
+.shoe-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(#4289FF ,#3F07F8);
+    border-radius: 10px;
+    padding: 10px 5%;
+}
+.shoe-name {
+    color: white;
+    font-size: 30px;
 }
